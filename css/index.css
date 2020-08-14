@@ -151,21 +151,20 @@ button:hover{
     }
 
     .artists-container .artist{     /* resize bio box */
-        width: 75%;
+        width: 85%;
     }
 
     .artists-container img {        /* resize artist img */
         width: 75%;
     }
 
-    .title-container div {
-        /* height: 100%;
-        width: 100%; */
-        background-size: 100%;
-        
+    .title-container div {          /* resizing the header background img. not thrilled with this approach but it works.*/
+        height: 30vh;
+        background-size: 250%;      /* large backgrounds size because the image is zoomed in in documenation. */
+
     }
 
-    .title-container h1{            /* tweaks to primary header */
+    .title-container h1{            /* tweaks to primary header fonts */
         font-size: 4rem;
         line-height: 4.5rem;
     }
